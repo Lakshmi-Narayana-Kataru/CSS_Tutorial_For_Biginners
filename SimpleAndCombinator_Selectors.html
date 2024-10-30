@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Simple and combinator selectors</title>
+        <style>  
+            body{
+                color: white;
+                background-color: black;
+            }
+            #para{
+                background: white;
+                color: black;
+            }
+            .super{
+                background-color: brown;
+                color: blue;
+            }
+            div > p{
+                background-color: blue;
+                color: pink;
+            }
+            div > p{
+                color: blue;
+                background-color: aliceblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="super">Appling style through simle selector</h1>
+        <h1 class="super">Appling style through simle selector</h1>
+        <h1 class="super">Appling style through simle selector</h1>
+        <h1>Appling style through simle selector</h1>
+        <p id="para">this is paragrah 1 appliing  styles with the name of</p>
+        <div>
+            <p>This is div tag 1</p>
+            <p>
+                <h1>This is headding in paragaraph in div</h1>
+            </p>
+            <p>This is div tag 3</p>
+            <p>This is div tag 4</p>
+        </div>
+    </body>
+</html>
